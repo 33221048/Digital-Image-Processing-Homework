@@ -65,17 +65,23 @@ I utilized the Discrete Cosine Transform (DCT) to compress images, experimenting
 
 </br>
 
-<figure style="display: flex; justify-content: center; margin-top: 0px;">
-  <figure style="margin-right: 20px;">
+<div style="display: flex; justify-content: center; margin-top: 0px;">
+  <div style="margin-right: 20px;">
     <img src="figures/Q3-DCT_MSE_plot.png" alt="MSE" width="100%">
-    <figcaption align="center">(a)</figcaption>
-  </figure>
-  <figure>
+    <div align="center">
+        <em>(a)</em>
+    </div>
+  </div>
+  <div>
     <img src="figures/Q3-DCT_PSNR_plot.png" alt="PSNR" width="100%">
-    <figcaption align="center">(b)</figcaption>
-  </figure>
-</figure>
-<figcaption style="text-align: center; margin-top: -10px;">Plot (a) shows the MSE of the decompressed image versus DCT coefficients (n), while plot (b) compares the PSNR of the decompressed image as a function of n.</figcaption>
+    <div align="center">
+        <em>(b)</em>
+    </div>
+  </div>
+</div>
+<div align="center" style="margin-top: 10px;">
+  <em>Plot (a) shows the MSE of the decompressed image versus DCT coefficients (n), while plot (b) compares the PSNR of the decompressed image as a function of n.</em>
+</div>
 
 ---
 
@@ -94,17 +100,21 @@ I implemented Contrast Limited Adaptive Histogram Equalization (CLAHE) from scra
 ### Part 2: Wiener vs. Inverse Filtering
 I compared the performance of Wiener and inverse filters on an image that was both blurred and noisy, evaluating which method provided better restoration.
 
-<figure style="display: flex; flex-direction: column; align-items: center;">
-  <figure>
-    <img src="figures/Q4-Noisefree_Restoration.png" alt="Noise-free-restoration" width="100%">
-    <figcaption style="text-align: center;">(a) Noise-free situation</figcaption>
-  </figure>
-  <figure style="margin-top: 0px;">
-    <img src="figures/Q4-Noisy_Restoration.png" alt="Noisy-restoration" width="100%">
-    <figcaption style="text-align: center;">(b) Noisy situation</figcaption>
-  </figure>
-  <figcaption style="text-align: center; margin-top: 0px;">Comparison of inverse and Wiener filters for noise-free image restoration in (a) and noisy image restoration in (b), with PSNR values in the titles indicating image quality relative to the original.</figcaption>
-</figure>
+<div align="center">
+  <img width="80%" src="figures/Q4-Noisefree_Restoration.png" />
+</div>
+<div align="center">
+  <em>(a) Noise-free situation</em>
+</div>
+<div align="center" style="margin-top: 10px;">
+  <img width="80%" src="figures/Q4-Noisy_Restoration.png" />
+</div>
+<div align="center">
+  <em>(b) Noisy situation</em>
+</div>
+<div align="center" style="margin-top: 10px;">
+  <em>Comparison of inverse and Wiener filters for noise-free image restoration in (a) and noisy image restoration in (b), with PSNR values in the titles indicating image quality relative to the original.</em>
+</div>
 
 ---
 
