@@ -8,7 +8,7 @@ This repository contains my solutions to six homework assignments from the **Dig
 2. [Homework 2: Quantization Techniques](#homework-2-quantization-techniques)
 3. [Homework 3: Convolution & DCT Compression](#homework-3-convolution--dct-compression)
 4. [Homework 4: CLAHE & Filter Comparison](#homework-4-clahe--filter-comparison)
-5. [Homework 5: Hough Transform, Segmentation & K-Means](#homework-5-hough-transform-segmentation--k-means)
+5. [Homework 5: Hough Transform, Segmentation & K-Means](#homework-5-hough-transform-template-matching--k-means-segmentation)
 6. [Homework 6: Compression & Morphological Operations](#homework-6-compression--morphological-operations)
 
 ---
@@ -65,21 +65,19 @@ I utilized the Discrete Cosine Transform (DCT) to compress images, experimenting
 
 </br>
 
-<div style="display: flex; justify-content: center; margin-top: 0px;">
-  <div style="margin-right: 20px;">
-    <img src="figures/Q3-DCT_MSE_plot.png" alt="MSE" width="100%">
-    <div align="center">
-        <em>(a)</em>
-    </div>
-  </div>
-  <div>
-    <img src="figures/Q3-DCT_PSNR_plot.png" alt="PSNR" width="100%">
-    <div align="center">
-        <em>(b)</em>
-    </div>
-  </div>
-</div>
-<div align="center" style="margin-top: 10px;">
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/Q3-DCT_MSE_plot.png" alt="MSE" width="80%">
+      <div><em>(a)</em></div>
+    </td>
+    <td align="center">
+      <img src="figures/Q3-DCT_PSNR_plot.png" alt="PSNR" width="80%">
+      <div><em>(b)</em></div>
+    </td>
+  </tr>
+</table>
+<div align="center">
   <em>Plot (a) shows the MSE of the decompressed image versus DCT coefficients (n), while plot (b) compares the PSNR of the decompressed image as a function of n.</em>
 </div>
 
